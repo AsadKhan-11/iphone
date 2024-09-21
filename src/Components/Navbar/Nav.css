@@ -1,0 +1,42 @@
+.nav {
+  width: 100vw;
+  background-color: black;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+
+.apple-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apple-icon ion-icon {
+  color: white;
+  height: 25px;
+  width: 25px;
+}
+
+.links-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.nav-links {
+  text-decoration: none;
+  color: white;
+}
+.sec-links-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.sec-links-container ion-icon {
+  color: white;
+  height: 25px;
+  width: 25px;
+}

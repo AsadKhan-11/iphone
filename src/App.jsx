@@ -1,11 +1,16 @@
 import { useState } from "react";
 
 import "./App.css";
+import Nav from "./Components/Navbar/Nav";
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return <></>;
+  return (
+    <>
+      <Nav />
+    </>
+  );
 }
 
 export default App;
