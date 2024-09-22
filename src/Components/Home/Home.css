@@ -1,0 +1,40 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  position: relative;
+}
+
+.home-header {
+  position: absolute;
+  top: 15%;
+  color: white;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.cta-btn {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(54, 102, 235);
+  border-radius: 20px;
+  color: white;
+  border: none;
+}
+
+.cta-price {
+  color: white;
+}
