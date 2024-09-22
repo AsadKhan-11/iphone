@@ -12,7 +12,12 @@ function Home() {
   return (
     <div className="home">
       <h1 className="home-header">iPhone 16 pro</h1>
-      <video autoPlay muted style={{ width: "100%", height: "550px" }}>
+      <video
+        className="header-video"
+        autoPlay
+        muted
+        style={{ width: "100%", height: "550px" }}
+      >
         <source src={iphone} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
