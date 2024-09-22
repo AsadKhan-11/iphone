@@ -6,6 +6,7 @@ import { useGSAP } from "@gsap/react";
 function Home() {
   useGSAP(() => {
     gsap.to("#cta", { y: "-50px", opacity: 1, delay: 3 });
+    gsap.to(".home-header", { opacity: 1, delay: 3 });
   });
 
   return (
